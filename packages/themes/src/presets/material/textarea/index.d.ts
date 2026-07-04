@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { TextareaTokenSections } from '@primeuix/themes/types/textarea';
+import type { StyleOptions } from '@cjdevstudios/bumbleuix-styled';
+import type { TextareaTokenSections } from '@cjdevstudios/bumbleuix-themes/types/textarea';
 
-export * from '@primeuix/themes/types/textarea';
+export * from '@cjdevstudios/bumbleuix-themes/types/textarea';
 
 declare const root: TextareaTokenSections.Root;
 declare const css: TextareaTokenSections.CSS;

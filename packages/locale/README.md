@@ -1,1 +1,1 @@
-# PrimeUIX Locale
+# BumbleUIX Locale

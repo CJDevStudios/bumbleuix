@@ -1,4 +1,4 @@
-import type { AccordionDesignTokens, AccordionTokenSections } from '@primeuix/themes/types/accordion';
+import type { AccordionDesignTokens, AccordionTokenSections } from '@cjdevstudios/bumbleuix-themes/types/accordion';
 
 export const root: AccordionTokenSections.Root = {
     transitionDuration: '{transition.duration}'

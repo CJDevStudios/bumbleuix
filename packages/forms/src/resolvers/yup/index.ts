@@ -1,5 +1,5 @@
-import { toValues } from '@primeuix/forms/utils';
-import { isNotEmpty } from '@primeuix/utils';
+import { toValues } from '@cjdevstudios/bumbleuix-forms/utils';
+import { isNotEmpty } from '@cjdevstudios/bumbleuix-utils';
 import type { AnyObjectSchema, ValidateOptions, ValidationError } from 'yup';
 import type { ResolverOptions, ResolverResult } from '..';
 

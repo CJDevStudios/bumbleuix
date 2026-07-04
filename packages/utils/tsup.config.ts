@@ -16,7 +16,7 @@ export default defineConfig({
     format: ['esm'],
     outDir: 'dist',
     dts: true,
-    external: [/^@primeuix\/(.*)$/],
+    external: [/^@cjdevstudios\/bumbleuix-(.*)$/],
     minify: isProduction,
     sourcemap: isProduction,
     splitting: false,

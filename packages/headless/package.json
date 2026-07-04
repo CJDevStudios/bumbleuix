@@ -1,17 +1,25 @@
 {
-    "name": "@primeuix/headless",
+    "name": "@cjdevstudios/bumbleuix-headless",
     "version": "0.0.0-alpha.1",
-    "author": "PrimeTek Informatics",
-    "description": "Headless utilities for PrimeUI Libraries",
-    "keywords": ["headless", "primeng", "primereact", "primevue"],
+    "author": "CJ Development Studios",
+    "contributors": [
+        {
+            "name": "CJ Development Studios"
+        },
+        {
+            "name": "PrimeTek Informatics"
+        }
+    ],
+    "description": "Headless utilities for BumbleVue",
+    "keywords": ["headless", "primevue", "bumblevue"],
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/primefaces/primeuix.git",
+        "url": "git+https://github.com/CJDevStudios/bumbleuix.git",
         "directory": "packages/headless"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primeuix/issues"
+        "url": "https://github.com/CJDevStudios/bumbleuix/issues"
     },
     "main": "./dist/index.mjs",
     "module": "./dist/index.mjs",
@@ -42,7 +50,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "workspace:^"
+        "@cjdevstudios/bumbleuix-utils": "workspace:^"
     },
     "engines": {
         "node": ">=12.11.0"

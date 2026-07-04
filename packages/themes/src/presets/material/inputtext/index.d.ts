@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { InputTextTokenSections } from '@primeuix/themes/types/inputtext';
+import type { StyleOptions } from '@cjdevstudios/bumbleuix-styled';
+import type { InputTextTokenSections } from '@cjdevstudios/bumbleuix-themes/types/inputtext';
 
-export * from '@primeuix/themes/types/inputtext';
+export * from '@cjdevstudios/bumbleuix-themes/types/inputtext';
 
 declare const root: InputTextTokenSections.Root;
 declare const css: InputTextTokenSections.CSS;

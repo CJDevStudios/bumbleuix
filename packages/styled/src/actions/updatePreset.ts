@@ -1,4 +1,4 @@
-import { deepMerge } from '@primeuix/utils/object';
+import { deepMerge } from '@cjdevstudios/bumbleuix-utils/object';
 import Theme from '../config/index';
 
 export default function updatePreset<T extends Record<string, unknown>>(...presets: T[]): T {

@@ -1,17 +1,25 @@
 {
-    "name": "@primeuix/motion",
+    "name": "@cjdevstudios/bumbleuix-motion",
     "version": "0.0.11",
-    "author": "PrimeTek Informatics",
+    "author": "CJ Development Studios",
+    "contributors": [
+        {
+            "name": "CJ Development Studios"
+        },
+        {
+            "name": "PrimeTek Informatics"
+        }
+    ],
     "description": "Motion utilities for PrimeUI Libraries",
-    "keywords": ["motion", "animation", "transition", "composition utilities", "primeng", "primereact", "primevue", "primeuix"],
+    "keywords": ["motion", "animation", "transition", "composition utilities", "primevue", "primeuix", "bumblevue", "bumbleuix"],
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/primefaces/primeuix.git",
+        "url": "git+https://github.com/CJDevStudios/bumbleuix.git",
         "directory": "packages/motion"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primeuix/issues"
+        "url": "https://github.com/CJDevStudios/bumbleuix/issues"
     },
     "main": "./dist/index.mjs",
     "module": "./dist/index.mjs",
@@ -36,7 +44,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "workspace:^"
+        "@cjdevstudios/bumbleuix-utils": "workspace:^"
     },
     "engines": {
         "node": ">=12.11.0"

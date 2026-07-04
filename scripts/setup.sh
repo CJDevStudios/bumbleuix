@@ -1,32 +1,12 @@
 #!/bin/bash
 
 case $1 in
-    ng)
-        cd submodules/primeng && pnpm run setup && \
-        cd apps/showcase && pnpm link @primeuix/styled @primeuix/styles @primeuix/themes @primeuix/utils @primeuix/motion --global && \
-        cd ../../packages/themes && pnpm link @primeuix/themes @primeuix/styles --global && \
-        cd ../primeng && pnpm link @primeuix/styled @primeuix/styles @primeuix/themes @primeuix/utils @primeuix/motion --global
-        ;;
     vue)
-        cd submodules/primevue && pnpm run setup && \
-        cd apps/showcase && pnpm link @primeuix/themes @primeuix/styles --global && \
-        cd ../../packages/core && pnpm link @primeuix/styled @primeuix/utils --global && \
-        cd ../themes && pnpm link @primeuix/themes @primeuix/styles --global && \
-        cd ../primevue && pnpm link @primeuix/styled @primeuix/styles @primeuix/themes @primeuix/utils --global && \
-        cd ../forms && pnpm link @primeuix/forms @primeuix/utils --global
-        ;;
-    react)
-        cd submodules/primereact && pnpm run setup && \
-        cd apps/showcase && pnpm link @primeuix/styled @primeuix/styles @primeuix/themes @primeuix/motion --global && \
-        cd ../../packages/core && pnpm link @primeuix/styled @primeuix/utils --global && \
-        cd ../headless && pnpm link @primeuix/styled @primeuix/utils --global && \
-        cd ../hooks && pnpm link @primeuix/utils --global && \
-        cd ../primereact && pnpm link @primeuix/styled @primeuix/styles @primeuix/utils @primeuix/motion --global && \
-        cd ../styles && pnpm link @primeuix/styled @primeuix/styles @primeuix/utils --global && \
-        cd ../types && pnpm link @primeuix/styled --global
-        ;;
-    *)
-        echo "Usage: $0 {ng|vue|react}"
-        exit 1
+        cd submodules/bumblevue && pnpm run setup && \
+        cd apps/showcase && pnpm link @cjdevstudios/bumbleuix-themes @cjdevstudios/bumbleuix-styles --global && \
+        cd ../../packages/core && pnpm link @cjdevstudios/bumbleuix-styled @cjdevstudios/bumbleuix-utils --global && \
+        cd ../themes && pnpm link @cjdevstudios/bumbleuix-themes @cjdevstudios/bumbleuix-styles --global && \
+        cd ../primevue && pnpm link @cjdevstudios/bumbleuix-styled @cjdevstudios/bumbleuix-styles @cjdevstudios/bumbleuix-themes @cjdevstudios/bumbleuix-utils --global && \
+        cd ../forms && pnpm link @cjdevstudios/bumbleuix-forms @cjdevstudios/bumbleuix-utils --global
         ;;
 esac

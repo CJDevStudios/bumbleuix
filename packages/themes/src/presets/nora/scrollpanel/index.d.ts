@@ -1,6 +1,6 @@
-import type { ScrollPanelTokenSections } from '@primeuix/themes/types/scrollpanel';
+import type { ScrollPanelTokenSections } from '@cjdevstudios/bumbleuix-themes/types/scrollpanel';
 
-export * from '@primeuix/themes/types/scrollpanel';
+export * from '@cjdevstudios/bumbleuix-themes/types/scrollpanel';
 
 declare const root: ScrollPanelTokenSections.Root;
 declare const bar: ScrollPanelTokenSections.Bar;

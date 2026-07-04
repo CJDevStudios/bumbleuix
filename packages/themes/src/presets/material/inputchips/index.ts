@@ -1,4 +1,4 @@
-import type { InputChipsDesignTokens, InputChipsTokenSections } from '@primeuix/themes/types/inputchips';
+import type { InputChipsDesignTokens, InputChipsTokenSections } from '@cjdevstudios/bumbleuix-themes/types/inputchips';
 
 export const root: InputChipsTokenSections.Root = {
     background: '{form.field.background}',

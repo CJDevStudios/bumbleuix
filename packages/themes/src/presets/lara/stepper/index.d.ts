@@ -1,6 +1,6 @@
-import type { StepperTokenSections } from '@primeuix/themes/types/stepper';
+import type { StepperTokenSections } from '@cjdevstudios/bumbleuix-themes/types/stepper';
 
-export * from '@primeuix/themes/types/stepper';
+export * from '@cjdevstudios/bumbleuix-themes/types/stepper';
 
 declare const root: StepperTokenSections.Root;
 declare const separator: StepperTokenSections.Separator;

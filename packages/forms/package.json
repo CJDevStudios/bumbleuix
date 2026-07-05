@@ -41,14 +41,15 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@cjdevstudios/bumbleuix-utils": "workspace:^"
+        "@cjdevstudios/bumbleuix-utils": "workspace:^",
+        "@regle/core": "^1.28.3"
     },
     "devDependencies": {
-        "yup": "^1.4.0",
-        "zod": "^3.23.8",
         "joi": "^17.13.3",
+        "superstruct": "^2.0.2",
         "valibot": "^0.42.1",
-        "superstruct": "^2.0.2"
+        "yup": "^1.4.0",
+        "zod": "^3.23.8"
     },
     "engines": {
         "node": ">=12.11.0"

@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { CheckboxTokenSections } from '@primeuix/themes/types/checkbox';
+import type { StyleOptions } from '@cjdevstudios/bumbleuix-styled';
+import type { CheckboxTokenSections } from '@cjdevstudios/bumbleuix-themes/types/checkbox';
 
-export * from '@primeuix/themes/types/checkbox';
+export * from '@cjdevstudios/bumbleuix-themes/types/checkbox';
 
 declare const root: CheckboxTokenSections.Root;
 declare const icon: CheckboxTokenSections.Icon;

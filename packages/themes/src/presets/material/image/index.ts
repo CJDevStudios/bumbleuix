@@ -1,4 +1,4 @@
-import type { ImageDesignTokens, ImageTokenSections } from '@primeuix/themes/types/image';
+import type { ImageDesignTokens, ImageTokenSections } from '@cjdevstudios/bumbleuix-themes/types/image';
 
 export const root: ImageTokenSections.Root = {
     transitionDuration: '{transition.duration}'

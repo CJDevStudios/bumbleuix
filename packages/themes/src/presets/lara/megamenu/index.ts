@@ -1,4 +1,4 @@
-import type { MegaMenuDesignTokens, MegaMenuTokenSections } from '@primeuix/themes/types/megamenu';
+import type { MegaMenuDesignTokens, MegaMenuTokenSections } from '@cjdevstudios/bumbleuix-themes/types/megamenu';
 
 export const root: MegaMenuTokenSections.Root = {
     borderColor: 'transparent',

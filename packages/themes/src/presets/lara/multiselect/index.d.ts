@@ -1,6 +1,6 @@
-import type { MultiSelectTokenSections } from '@primeuix/themes/types/multiselect';
+import type { MultiSelectTokenSections } from '@cjdevstudios/bumbleuix-themes/types/multiselect';
 
-export * from '@primeuix/themes/types/multiselect';
+export * from '@cjdevstudios/bumbleuix-themes/types/multiselect';
 
 declare const root: MultiSelectTokenSections.Root;
 declare const dropdown: MultiSelectTokenSections.Dropdown;

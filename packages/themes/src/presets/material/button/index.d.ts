@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { ButtonTokenSections } from '@primeuix/themes/types/button';
+import type { StyleOptions } from '@cjdevstudios/bumbleuix-styled';
+import type { ButtonTokenSections } from '@cjdevstudios/bumbleuix-themes/types/button';
 
-export * from '@primeuix/themes/types/button';
+export * from '@cjdevstudios/bumbleuix-themes/types/button';
 
 declare const root: ButtonTokenSections.Root;
 declare const colorScheme: ButtonTokenSections.ColorScheme;

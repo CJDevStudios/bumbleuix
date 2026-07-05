@@ -1,1 +1,1 @@
-export * from '@primeuix/headless/listbox';
+export * from '@cjdevstudios/bumbleuix-headless/listbox';

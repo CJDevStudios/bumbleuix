@@ -41,30 +41,12 @@ sleep 2
 
 # Start the appropriate frontend dev server based on argument
 case $1 in
-    ng)
-        cd submodules/primeng
-        pnpm run dev &
-        pids+=($!)
-        sleep 2
-        open_url "http://localhost:4200"
-        ;;
     vue)
         cd submodules/primevue
         pnpm run hot:dev &
         pids+=($!)
         sleep 2
         open_url "http://localhost:3000"
-        ;;
-    react)
-        cd submodules/primereact
-        pnpm run dev2 &
-        pids+=($!)
-        sleep 2
-        open_url "http://localhost:3001"
-        ;;
-    *)
-        echo "Usage: $0 {ng|vue|react}"
-        cleanup
         ;;
 esac
 

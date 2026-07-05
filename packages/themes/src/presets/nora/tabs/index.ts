@@ -1,4 +1,4 @@
-import type { TabsDesignTokens, TabsTokenSections } from '@primeuix/themes/types/tabs';
+import type { TabsDesignTokens, TabsTokenSections } from '@cjdevstudios/bumbleuix-themes/types/tabs';
 
 export const root: TabsTokenSections.Root = {
     transitionDuration: '{transition.duration}'

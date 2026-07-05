@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { MegaMenuTokenSections } from '@primeuix/themes/types/megamenu';
+import type { StyleOptions } from '@cjdevstudios/bumbleuix-styled';
+import type { MegaMenuTokenSections } from '@cjdevstudios/bumbleuix-themes/types/megamenu';
 
-export * from '@primeuix/themes/types/megamenu';
+export * from '@cjdevstudios/bumbleuix-themes/types/megamenu';
 
 declare const root: MegaMenuTokenSections.Root;
 declare const baseItem: MegaMenuTokenSections.BaseItem;

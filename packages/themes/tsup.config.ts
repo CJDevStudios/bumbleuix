@@ -23,7 +23,7 @@ export default defineConfig([
         dts: {
             entry: ['src/index.ts']
         },
-        external: [/^@primeuix\/(.*)$/],
+        external: [/^@cjdevstudios\/(.*)$/],
         minify: isProduction ? 'terser' : false,
         sourcemap: isProduction,
         splitting: false,

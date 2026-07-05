@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { ToggleSwitchTokenSections } from '@primeuix/themes/types/toggleswitch';
+import type { StyleOptions } from '@cjdevstudios/bumbleuix-styled';
+import type { ToggleSwitchTokenSections } from '@cjdevstudios/bumbleuix-themes/types/toggleswitch';
 
-export * from '@primeuix/themes/types/toggleswitch';
+export * from '@cjdevstudios/bumbleuix-themes/types/toggleswitch';
 
 declare const root: ToggleSwitchTokenSections.Root;
 declare const handle: ToggleSwitchTokenSections.Handle;

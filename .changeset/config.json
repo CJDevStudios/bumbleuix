@@ -1,8 +1,8 @@
 {
     "$schema": "https://unpkg.com/@changesets/config@3.0.4/schema.json",
-    "changelog": ["@changesets/changelog-github", { "repo": "primefaces/primeuix" }],
+    "changelog": ["@changesets/changelog-github", { "repo": "CJDevStudios/bumbleuix" }],
     "commit": false,
-    "fixed": [["@primeuix/*"]],
+    "fixed": [["@cjdevstudios/bumbleuix-*"]],
     "linked": [],
     "access": "public",
     "baseBranch": "main",

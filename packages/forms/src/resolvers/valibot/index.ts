@@ -1,5 +1,5 @@
-import { toValues } from '@primeuix/forms/utils';
-import { isNotEmpty } from '@primeuix/utils';
+import { toValues } from '@cjdevstudios/bumbleuix-forms/utils';
+import { isNotEmpty } from '@cjdevstudios/bumbleuix-utils';
 import { getDotPath, InferOutput, safeParse, safeParseAsync } from 'valibot';
 import type { ResolverOptions, ResolverResult } from '..';
 

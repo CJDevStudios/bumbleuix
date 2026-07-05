@@ -1,17 +1,25 @@
 {
-    "name": "@primeuix/utils",
+    "name": "@cjdevstudios/bumbleuix-utils",
     "version": "0.6.4",
-    "author": "PrimeTek Informatics",
-    "description": "Utility functions and helpers for PrimeUI Libraries",
-    "keywords": ["utilities", "helpers", "primeng", "primereact", "primevue", "primeuix"],
+    "author": "CJ Development Studios",
+    "contributors": [
+        {
+            "name": "CJ Development Studios"
+        },
+        {
+            "name": "PrimeTek Informatics"
+        }
+    ],
+    "description": "Utility functions and helpers for BumbleVue",
+    "keywords": ["utilities", "helpers", "primevue", "primeuix", "bumblevue", "bumbleuix"],
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/primefaces/primeuix.git",
+        "url": "git+https://github.com/CJDevStudios/bumbleuix.git",
         "directory": "packages/utils"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primeuix/issues"
+        "url": "https://github.com/CJDevStudios/bumbleuix/issues"
     },
     "main": "./dist/index.mjs",
     "module": "./dist/index.mjs",

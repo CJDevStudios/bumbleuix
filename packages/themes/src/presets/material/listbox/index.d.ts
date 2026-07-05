@@ -1,6 +1,6 @@
-import type { ListboxTokenSections } from '@primeuix/themes/types/listbox';
+import type { ListboxTokenSections } from '@cjdevstudios/bumbleuix-themes/types/listbox';
 
-export * from '@primeuix/themes/types/listbox';
+export * from '@cjdevstudios/bumbleuix-themes/types/listbox';
 
 declare const root: ListboxTokenSections.Root;
 declare const list: ListboxTokenSections.List;

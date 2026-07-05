@@ -1,1 +1,1 @@
-# PrimeUIX Themes
+# BumbleUIX Themes

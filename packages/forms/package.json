@@ -1,17 +1,25 @@
 {
-    "name": "@primeuix/forms",
+    "name": "@cjdevstudios/bumbleuix-forms",
     "version": "0.1.0",
-    "author": "PrimeTek Informatics",
-    "description": "Forms utilities for PrimeUI Libraries",
-    "keywords": ["forms", "validation", "utilities", "primeng", "primereact", "primevue", "primeuix"],
+    "author": "CJ Development Studios",
+    "contributors": [
+        {
+            "name": "CJ Development Studios"
+        },
+        {
+            "name": "PrimeTek Informatics"
+        }
+    ],
+    "description": "Forms utilities for BumbleVue",
+    "keywords": ["forms", "validation", "utilities", "primevue", "primeuix", "bumblevue", "bumbleuix"],
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/primefaces/primeuix.git",
+        "url": "git+https://github.com/CJDevStudios/bumbleuix.git",
         "directory": "packages/forms"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primeuix/issues"
+        "url": "https://github.com/CJDevStudios/bumbleuix/issues"
     },
     "exports": {
         "./*": {
@@ -33,7 +41,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "workspace:^"
+        "@cjdevstudios/bumbleuix-utils": "workspace:^"
     },
     "devDependencies": {
         "yup": "^1.4.0",

@@ -1,5 +1,5 @@
-import type { LaraBaseDesignTokens } from '@primeuix/themes/lara/base';
-import type { Preset } from '@primeuix/themes/types';
+import type { LaraBaseDesignTokens } from '@cjdevstudios/bumbleuix-themes/lara/base';
+import type { Preset } from '@cjdevstudios/bumbleuix-themes/types';
 
 /**
  *

@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { TabsTokenSections } from '@primeuix/themes/types/tabs';
+import type { StyleOptions } from '@cjdevstudios/bumbleuix-styled';
+import type { TabsTokenSections } from '@cjdevstudios/bumbleuix-themes/types/tabs';
 
-export * from '@primeuix/themes/types/tabs';
+export * from '@cjdevstudios/bumbleuix-themes/types/tabs';
 
 declare const root: TabsTokenSections.Root;
 declare const tablist: TabsTokenSections.Tablist;

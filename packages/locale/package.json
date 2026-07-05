@@ -1,17 +1,25 @@
 {
-    "name": "@primeuix/locale",
+    "name": "@cjdevstudios/bumbleuix-locale",
     "version": "0.0.2",
-    "author": "PrimeTek Informatics",
-    "description": "Locale utilities for PrimeUI Libraries",
-    "keywords": ["locale", "internationalization", "i18n", "translation", "localization", "utilities", "primeng", "primereact", "primevue", "primeuix"],
+    "author": "CJ Development Studios",
+    "contributors": [
+        {
+            "name": "CJ Development Studios"
+        },
+        {
+            "name": "PrimeTek Informatics"
+        }
+    ],
+    "description": "Locale utilities for BumbleVue",
+    "keywords": ["locale", "internationalization", "i18n", "translation", "localization", "utilities", "primevue", "primeuix", "bumblevue", "bumbleuix"],
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/primefaces/primeuix.git",
+        "url": "git+https://github.com/CJDevStudios/bumbleuix.git",
         "directory": "packages/locale"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primeuix/issues"
+        "url": "https://github.com/CJDevStudios/bumbleuix/issues"
     },
     "main": "./dist/index.mjs",
     "module": "./dist/index.mjs",
@@ -37,7 +45,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "workspace:^"
+        "@cjdevstudios/bumbleuix-utils": "workspace:^"
     },
     "engines": {
         "node": ">=12.11.0"

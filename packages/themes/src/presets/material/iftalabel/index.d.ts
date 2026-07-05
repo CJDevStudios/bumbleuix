@@ -1,6 +1,6 @@
-import type { IftaLabelTokenSections } from '@primeuix/themes/types/iftalabel';
+import type { IftaLabelTokenSections } from '@cjdevstudios/bumbleuix-themes/types/iftalabel';
 
-export * from '@primeuix/themes/types/iftalabel';
+export * from '@cjdevstudios/bumbleuix-themes/types/iftalabel';
 
 declare const root: IftaLabelTokenSections.Root;
 declare const input: IftaLabelTokenSections.Input;

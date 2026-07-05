@@ -23,7 +23,7 @@ export default defineConfig([
         format: ['esm'],
         outDir: 'dist',
         dts: true,
-        external: [/^@cjdevstudios\/(.*)$/, 'joi', 'superstruct', 'valibot', 'yup', 'zod'],
+        external: [/^@cjdevstudios\/(.*)$/, 'joi', 'superstruct', 'valibot', 'yup', 'zod', '@regle/core'],
         minify: isProduction,
         sourcemap: isProduction,
         splitting: false,
@@ -37,7 +37,7 @@ export default defineConfig([
         format: ['iife'],
         outDir: 'umd/resolvers',
         globalName: `BumbleUIX.Forms.${resolver.charAt(0).toUpperCase() + resolver.slice(1)}`,
-        external: ['joi', 'superstruct', 'valibot', 'yup', 'zod'],
+        external: ['joi', 'superstruct', 'valibot', 'yup', 'zod', '@regle/core'],
         minify: true,
         watch: false,
         outExtension: () => ({ js: `.js` })

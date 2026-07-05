@@ -1,4 +1,4 @@
-import { resolve, toElement } from '@primeuix/utils';
+import { resolve, toElement } from '@cjdevstudios/bumbleuix-utils';
 import { logger, mergeAssign, toCamelCase } from '../utils';
 import type { LoggerItems } from '../utils/type';
 import type { ComponentInstance, Options, SetupOptions } from './type';

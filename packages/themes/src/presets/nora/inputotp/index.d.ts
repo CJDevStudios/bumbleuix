@@ -1,6 +1,6 @@
-import type { InputOtpTokenSections } from '@primeuix/themes/types/inputotp';
+import type { InputOtpTokenSections } from '@cjdevstudios/bumbleuix-themes/types/inputotp';
 
-export * from '@primeuix/themes/types/inputotp';
+export * from '@cjdevstudios/bumbleuix-themes/types/inputotp';
 
 declare const root: InputOtpTokenSections.Root;
 declare const input: InputOtpTokenSections.Input;

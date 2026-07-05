@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { PanelMenuTokenSections } from '@primeuix/themes/types/panelmenu';
+import type { StyleOptions } from '@cjdevstudios/bumbleuix-styled';
+import type { PanelMenuTokenSections } from '@cjdevstudios/bumbleuix-themes/types/panelmenu';
 
-export * from '@primeuix/themes/types/panelmenu';
+export * from '@cjdevstudios/bumbleuix-themes/types/panelmenu';
 
 declare const root: PanelMenuTokenSections.Root;
 declare const panel: PanelMenuTokenSections.Panel;

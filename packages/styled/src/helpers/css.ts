@@ -1,4 +1,4 @@
-import { resolve } from '@primeuix/utils';
+import { resolve } from '@cjdevstudios/bumbleuix-utils';
 import { evaluateDtExpressions, type StyleType } from '..';
 import { dt } from './dt';
 

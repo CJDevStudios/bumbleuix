@@ -1,4 +1,4 @@
-import type { TreeDesignTokens, TreeTokenSections } from '@primeuix/themes/types/tree';
+import type { TreeDesignTokens, TreeTokenSections } from '@cjdevstudios/bumbleuix-themes/types/tree';
 
 export const root: TreeTokenSections.Root = {
     background: '{content.background}',

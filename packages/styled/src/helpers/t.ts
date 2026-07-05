@@ -1,4 +1,4 @@
-import { mergeKeys } from '@primeuix/utils/object';
+import { mergeKeys } from '@cjdevstudios/bumbleuix-utils/object';
 import Theme from '../config/index';
 
 export const $t = (theme: any = {}) => {

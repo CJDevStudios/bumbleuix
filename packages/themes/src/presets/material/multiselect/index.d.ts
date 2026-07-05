@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { MultiSelectTokenSections } from '@primeuix/themes/types/multiselect';
+import type { StyleOptions } from '@cjdevstudios/bumbleuix-styled';
+import type { MultiSelectTokenSections } from '@cjdevstudios/bumbleuix-themes/types/multiselect';
 
-export * from '@primeuix/themes/types/multiselect';
+export * from '@cjdevstudios/bumbleuix-themes/types/multiselect';
 
 declare const root: MultiSelectTokenSections.Root;
 declare const dropdown: MultiSelectTokenSections.Dropdown;

@@ -1,6 +1,6 @@
-import type { TreeSelectTokenSections } from '@primeuix/themes/types/treeselect';
+import type { TreeSelectTokenSections } from '@cjdevstudios/bumbleuix-themes/types/treeselect';
 
-export * from '@primeuix/themes/types/treeselect';
+export * from '@cjdevstudios/bumbleuix-themes/types/treeselect';
 
 declare const root: TreeSelectTokenSections.Root;
 declare const dropdown: TreeSelectTokenSections.Dropdown;

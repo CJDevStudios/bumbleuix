@@ -1,6 +1,6 @@
-import type { CarouselTokenSections } from '@primeuix/themes/types/carousel';
+import type { CarouselTokenSections } from '@cjdevstudios/bumbleuix-themes/types/carousel';
 
-export * from '@primeuix/themes/types/carousel';
+export * from '@cjdevstudios/bumbleuix-themes/types/carousel';
 
 declare const root: CarouselTokenSections.Root;
 declare const content: CarouselTokenSections.Content;

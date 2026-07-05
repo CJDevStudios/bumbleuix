@@ -1,4 +1,4 @@
-import { mergeKeys } from '@primeuix/utils/object';
+import { mergeKeys } from '@cjdevstudios/bumbleuix-utils/object';
 import LocaleService from '../service';
 import type { LocaleInstance, LocaleOptions } from '../types';
 

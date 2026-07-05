@@ -1,3 +1,3 @@
-import { ExtendedCSS } from '@primeuix/themes/types';
+import { ExtendedCSS } from '@cjdevstudios/bumbleuix-themes/types';
 
 export const css: ExtendedCSS;

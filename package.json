@@ -1,14 +1,22 @@
 {
-    "name": "@primeuix/monorepo",
+    "name": "@cjdevstudios/bumbleuix-monorepo",
     "version": "0.7.0",
-    "author": "PrimeTek Informatics",
+    "author": "CJ Development Studios",
+    "contributors": [
+        {
+            "name": "CJ Development Studios"
+        },
+        {
+            "name": "PrimeTek Informatics"
+        }
+    ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/primefaces/primeuix.git"
+        "url": "git+https://github.com/CJDevStudios/bumbleuix.git"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/primefaces/primeuix/issues"
+        "url": "https://github.com/CJDevStudios/bumbleuix/issues"
     },
     "scripts": {
         "setup": "pnpm run clean && npx concurrently 'pnpm run ng:setup' 'pnpm run vue:setup' 'pnpm run react:setup' 'pnpm run init'",

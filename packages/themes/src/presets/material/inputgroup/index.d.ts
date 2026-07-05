@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { InputGroupTokenSections } from '@primeuix/themes/types/inputgroup';
+import type { StyleOptions } from '@cjdevstudios/bumbleuix-styled';
+import type { InputGroupTokenSections } from '@cjdevstudios/bumbleuix-themes/types/inputgroup';
 
-export * from '@primeuix/themes/types/inputgroup';
+export * from '@cjdevstudios/bumbleuix-themes/types/inputgroup';
 
 declare const addon: InputGroupTokenSections.Addon;
 declare const css: InputGroupTokenSections.CSS;

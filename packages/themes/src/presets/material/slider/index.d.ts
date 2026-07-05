@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { SliderTokenSections } from '@primeuix/themes/types/slider';
+import type { StyleOptions } from '@cjdevstudios/bumbleuix-styled';
+import type { SliderTokenSections } from '@cjdevstudios/bumbleuix-themes/types/slider';
 
-export * from '@primeuix/themes/types/slider';
+export * from '@cjdevstudios/bumbleuix-themes/types/slider';
 
 declare const root: SliderTokenSections.Root;
 declare const track: SliderTokenSections.Track;

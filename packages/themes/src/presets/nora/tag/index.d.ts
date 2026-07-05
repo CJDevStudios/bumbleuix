@@ -1,6 +1,6 @@
-import type { TagTokenSections } from '@primeuix/themes/types/tag';
+import type { TagTokenSections } from '@cjdevstudios/bumbleuix-themes/types/tag';
 
-export * from '@primeuix/themes/types/tag';
+export * from '@cjdevstudios/bumbleuix-themes/types/tag';
 
 declare const root: TagTokenSections.Root;
 declare const icon: TagTokenSections.Icon;

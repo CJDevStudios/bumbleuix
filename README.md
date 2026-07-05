@@ -1,27 +1,61 @@
-# PrimeUIX
+# BumbleUIX
 
-### The next chapter has begun.
+BumbleUIX is the theming package for BumbleVue and related projects.
 
-After years as an open source library, PrimeUIX enters its next chapter as part of **PrimeUI**,  a sustainable foundation for the libraries you rely on.
+### Setup
 
-This repository is now **archived**. It remains available, as a record of everything built here together.
+> [!IMPORTANT]
+> This project requires **pnpm 9.6.0 or later**. Please ensure the correct version is installed before proceeding.
 
-## What this means
+1. **Initialize Git Submodules**
+   On a fresh clone, submodules must be initialized before running any setup commands:
 
-**Existing MIT versions remain MIT, forever.**
-Every release published under the MIT license stays exactly as it is. Your existing projects are unaffected. Nothing is taken away.
+   ```sh
+   git submodule update --init --recursive
+   ```
 
-**Development continues at a new home.**
-Active development, new releases, and everything ahead now live under PrimeUI.
+2. **Link Dependencies**  
+   Run the following command to link dependencies:
 
-➡️ **Read the announcement:** [primeui.dev/nextchapter](https://primeui.dev/nextchapter)
+   ```sh
+   pnpm run link
+   ```
 
-➡️ **The journey continues at:** [primeuix.dev](https://primeuix.dev)
+   If any issues occur, it may be necessary to manually run the following command for each package inside the `packages` folder:
 
-## Thank you
+   ```sh
+   cd packages/forms && pnpm run dev:link
+   cd packages/themes && pnpm run dev:link
+   ```
 
-To everyone who used PrimeUIX, filed an issue, opened a pull request, answered a question, or simply built something with it,  thank you. This library reached hundreds of millions of downloads because of you.
+   In some cases, permission issues might require using `sudo`. For example:
 
-This archive stays here as a thank you and a milestone. The next chapter is just beginning, and we hope you'll be part of it.
+   ```sh
+   cd packages/themes && sudo pnpm run dev:link
+   ```
 
-— The PrimeTek Team
+> [!NOTE]
+> This linking process only needs to be performed once.
+
+3. **Setup the Project**  
+   Run the following command to bootstrap the workspace:
+
+   ```sh
+   pnpm run setup
+   ```
+
+4. **Start Development Server**
+
+     ```sh
+     pnpm run vue:dev
+     ```
+
+### Submodules
+
+This project includes **BumbleVue** as a submodules. To update this submodule, run the following command:
+
+   ```sh
+   git submodule update --init --remote --merge
+   ```
+
+All set! Happy coding! 🚀

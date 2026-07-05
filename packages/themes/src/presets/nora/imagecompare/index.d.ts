@@ -1,6 +1,6 @@
-import type { ImageCompareTokenSections } from '@primeuix/themes/types/imagecompare';
+import type { ImageCompareTokenSections } from '@cjdevstudios/bumbleuix-themes/types/imagecompare';
 
-export * from '@primeuix/themes/types/imagecompare';
+export * from '@cjdevstudios/bumbleuix-themes/types/imagecompare';
 
 declare const handle: ImageCompareTokenSections.Handle;
 declare const _default: {

@@ -1,4 +1,4 @@
-import type { CascadeSelectDesignTokens, CascadeSelectTokenSections } from '@primeuix/themes/types/cascadeselect';
+import type { CascadeSelectDesignTokens, CascadeSelectTokenSections } from '@cjdevstudios/bumbleuix-themes/types/cascadeselect';
 
 export const root: CascadeSelectTokenSections.Root = {
     background: '{form.field.background}',

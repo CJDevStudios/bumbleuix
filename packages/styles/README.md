@@ -1,1 +1,1 @@
-# PrimeUIX Styles
+# BumbleUIX Styles

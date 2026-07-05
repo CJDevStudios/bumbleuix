@@ -1,4 +1,4 @@
-import type { ToolbarDesignTokens, ToolbarTokenSections } from '@primeuix/themes/types/toolbar';
+import type { ToolbarDesignTokens, ToolbarTokenSections } from '@cjdevstudios/bumbleuix-themes/types/toolbar';
 
 export const root: ToolbarTokenSections.Root = {
     color: '{content.color}',

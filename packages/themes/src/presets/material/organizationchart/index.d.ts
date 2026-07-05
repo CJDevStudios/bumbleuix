@@ -1,6 +1,6 @@
-import type { OrganizationChartTokenSections } from '@primeuix/themes/types/organizationchart';
+import type { OrganizationChartTokenSections } from '@cjdevstudios/bumbleuix-themes/types/organizationchart';
 
-export * from '@primeuix/themes/types/organizationchart';
+export * from '@cjdevstudios/bumbleuix-themes/types/organizationchart';
 
 declare const root: OrganizationChartTokenSections.Root;
 declare const node: OrganizationChartTokenSections.Node;

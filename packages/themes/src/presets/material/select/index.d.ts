@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { SelectTokenSections } from '@primeuix/themes/types/select';
+import type { StyleOptions } from '@cjdevstudios/bumbleuix-styled';
+import type { SelectTokenSections } from '@cjdevstudios/bumbleuix-themes/types/select';
 
-export * from '@primeuix/themes/types/select';
+export * from '@cjdevstudios/bumbleuix-themes/types/select';
 
 declare const root: SelectTokenSections.Root;
 declare const dropdown: SelectTokenSections.Dropdown;

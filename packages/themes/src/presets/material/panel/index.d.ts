@@ -1,6 +1,6 @@
-import type { PanelTokenSections } from '@primeuix/themes/types/panel';
+import type { PanelTokenSections } from '@cjdevstudios/bumbleuix-themes/types/panel';
 
-export * from '@primeuix/themes/types/panel';
+export * from '@cjdevstudios/bumbleuix-themes/types/panel';
 
 declare const root: PanelTokenSections.Root;
 declare const header: PanelTokenSections.Header;

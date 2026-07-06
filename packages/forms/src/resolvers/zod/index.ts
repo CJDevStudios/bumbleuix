@@ -2,6 +2,7 @@ import { toValues } from '@cjdevstudios/bumbleuix-forms/utils';
 import { isNotEmpty } from '@cjdevstudios/bumbleuix-utils';
 import type { ParseParams, Schema } from 'zod';
 import type { ResolverOptions, ResolverResult } from '..';
+import { z } from 'zod/v4';
 
 export const zodResolver =
     <T extends Schema<any, any>>(schema: T, schemaOptions?: ParseParams, resolverOptions?: ResolverOptions) =>
@@ -20,7 +21,7 @@ export const zodResolver =
                 return {
                     values: toValues(raw ? values : undefined, name),
                     errors: (e.issues || e.errors).reduce((acc: Record<string, any[]>, error: any) => {
-                        const pathKey = isNotEmpty(error.path) ? error.path.join('.') : name;
+                        const pathKey = isNotEmpty(error.path) ? z.core.toDotPath(error.path) : name;
 
                         if (pathKey) {
                             acc[pathKey] ||= [];

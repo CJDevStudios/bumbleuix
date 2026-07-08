@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# This script starts the development servers for PrimeNG, PrimeVue, or PrimeReact
-# based on the argument provided. It also sets up a common build watcher using tsup.
+# This script starts the development servers based on the argument provided. It also sets up a common build watcher using tsup.
 
 # Store background process IDs
 pids=()
@@ -42,7 +41,7 @@ sleep 2
 # Start the appropriate frontend dev server based on argument
 case $1 in
     vue)
-        cd submodules/primevue
+        cd submodules/bumblevue
         pnpm run hot:dev &
         pids+=($!)
         sleep 2

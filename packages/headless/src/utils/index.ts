@@ -59,16 +59,16 @@ export const logger: Logger & { [key: string]: any } = {
                     console.log(message, ...args);
                     break;
                 case 'warn':
-                    console.warn(`⚠️ [PRIME_WARN] ${message}`, ...args);
+                    console.warn(`⚠️ [BUMBLE_WARN] ${message}`, ...args);
                     break;
                 case 'error':
-                    console.error(`❌ [PRIME_ERROR] ${message}`, ...args);
+                    console.error(`❌ [BUMBLE_ERROR] ${message}`, ...args);
                     break;
                 case 'info':
-                    console.info(`ℹ️ [PRIME_INFO] ${message}`, ...args);
+                    console.info(`ℹ️ [BUMBLE_INFO] ${message}`, ...args);
                     break;
                 case 'success':
-                    console.log(`✅ [PRIME_SUCCESS] ${message}`, ...args);
+                    console.log(`✅ [BUMBLE_SUCCESS] ${message}`, ...args);
                     break;
             }
         });

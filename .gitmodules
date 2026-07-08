@@ -1,3 +1,4 @@
 [submodule "submodules/bumblevue"]
 	path = submodules/bumblevue
 	url = https://github.com/CJDevStudios/bumblevue
+	branch = develop

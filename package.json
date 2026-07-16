@@ -1,6 +1,6 @@
 {
     "name": "@cjdevstudios/bumbleuix-monorepo",
-    "version": "1.0.0-beta.2",
+    "version": "1.0.0-beta.3",
     "author": "CJ Development Studios",
     "contributors": [
         {
@@ -88,6 +88,8 @@
     },
     "packageManager": "pnpm@9.6.0",
     "lint-staged": {
-        "**/*.{js,mjs,ts,mts,d.ts,yml}": ["prettier --write"]
+        "**/*.{js,mjs,ts,mts,d.ts,yml}": [
+            "prettier --write"
+        ]
     }
 }

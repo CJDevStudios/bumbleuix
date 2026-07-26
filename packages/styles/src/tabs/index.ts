@@ -4,6 +4,10 @@ export const style = /*css*/ `
         flex-direction: column;
     }
 
+    .p-tabs:has(.p-tablist-vertical) {
+        flex-direction: row;
+    }
+
     .p-tablist {
         display: flex;
         position: relative;
@@ -29,6 +33,12 @@ export const style = /*css*/ `
         border-style: solid;
         border-color: dt('tabs.tablist.border.color');
         border-width: dt('tabs.tablist.border.width');
+    }
+
+    .p-tablist-tab-list.p-tablist-vertical {
+        flex-direction: column;
+        overflow-y: auto;
+        max-height: 100%;
     }
 
     .p-tablist-content {

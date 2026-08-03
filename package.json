@@ -33,7 +33,6 @@
         "build:packages": "pnpm --filter './packages/*' --workspace-concurrency=1 run build",
         "build:dev:packages": "pnpm --filter './packages/*' --workspace-concurrency=1 --parallel run build:dev",
         "build:forms": "pnpm --filter forms build",
-        "build:headless": "pnpm --filter headless build",
         "build:locale": "pnpm --filter locale build",
         "build:mcp": "pnpm --filter mcp build",
         "build:motion": "pnpm --filter motion build",

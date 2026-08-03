@@ -136,12 +136,6 @@ importers:
         specifier: ^3.25.76
         version: 3.25.76
 
-  packages/headless:
-    dependencies:
-      '@cjdevstudios/bumbleuix-utils':
-        specifier: workspace:^
-        version: link:../utils
-
   packages/locale:
     dependencies:
       '@cjdevstudios/bumbleuix-utils':
